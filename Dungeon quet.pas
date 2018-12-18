@@ -13,13 +13,21 @@ var you,  HP, maxHP,  mana,  dam, maxdam, vanpirrizm, magshitr, twodam, opet, yr
  writeln( 'Выбери касту: воин, ассасин, маг. Воины от рождения сильнее и имеют большой вампиризм. Ассины ловкие и имеют больший двойной удрар. Маги кастуют более крепкие магичиские щиты и проводят больше времени в чаровальне и сварили 2 доп. элексира маны ')
  klass:=readln();
  
+ maxHP:=200;
+ HP:=random(maxHP);
+ if HP=maxHP/2 then HP:=maxHP/2; 
+ HP:=random(maxHP);
+ 
+ maxvanpirrizm:=40;
+ vanpirrizm:=random(maxvanpirrizm);
+ if vanpirrizm=maxvanpirrizm/2 then vanpirrizm:=maxvanpirrizm/2; 
+ vanpirrizm:=vanpirrizmdam);
+ 
  maxdam:=40;
  dam:=random(maxdam);
- if dam=maxdan/2 then dam:=maxdam/2;
- dam:=random(maxdam);
- 
- maxHP:=200:
- hp
+ if dam=maxdam/2 then dam:=maxdam/2; 
+ HP:=random(maxHP)
+
  
  
 
